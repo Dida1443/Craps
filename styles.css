@@ -1,0 +1,119 @@
+body{
+     height: 80vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    flex-direction: column;
+
+    background-color: rgb(238, 238, 210);
+    gap: 20px;
+
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    flex-direction: column;
+    gap: 20px;
+
+    width: 600px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-weight: bolder;
+    font-size: 40px;
+    color: rgb(51,50,50);
+    text-decoration: underline;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    
+    padding: 10px;
+
+    
+    font-size: 25px;;
+    gap: 40px;
+
+}
+
+.playBTT{
+    background-color: rgb(124, 18, 18);
+    color: antiquewhite;
+    padding: 15px;
+    border-radius: 50px;
+    border: solid black 2px;
+    font-weight: bold;
+}
+
+.playBTT:active{
+    background-color: rgb(119, 119, 41);
+    font: rgb(51,50,50);
+}
+
+.display{
+    background-color: white;
+    padding: 15px;
+    border: solid black 3px;
+}
+
+.point{
+    font-size: 30px;
+    
+    padding: 15px;
+}
+
+.message{
+    border-radius: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    padding:20px;
+    border: solid black 3px;
+
+}
+
+.stats{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    font: 25px; 
+}
+
+.statsDP{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 25px;
+}
+
+h3{
+    font-size: 35px;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.text1 .text2{
+    font-size: 25px;
+    font-weight: 600;
+    width: 300px;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+}
